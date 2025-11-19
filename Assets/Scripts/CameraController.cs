@@ -52,9 +52,3 @@ public class CameraController : MonoBehaviour
         return (player1.position + player2.position) / 2f;
     }
 }
-using UnityEngine;
-
-public class CameraController
-{
-    
-}
