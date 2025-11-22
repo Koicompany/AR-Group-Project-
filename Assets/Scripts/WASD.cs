@@ -18,7 +18,7 @@ public class WASD : MonoBehaviour
     private int jumpCounter;
 
     [Header("Layers")]
-    public LayerMask groundLayer;
+    public LayerMask GroundLayer;
 
     private Rigidbody2D body;
     private Animator anim;
@@ -84,7 +84,7 @@ public class WASD : MonoBehaviour
 
     private bool IsGrounded()
     {
-        RaycastHit2D hit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0f, Vector2.down, 0.1f, groundLayer);
+        RaycastHit2D hit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0f, Vector2.down, 0.1f, GroundLayer);
         return hit.collider != null;
     }
 }

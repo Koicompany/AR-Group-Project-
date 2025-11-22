@@ -595,7 +595,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -646,7 +646,7 @@ MonoBehaviour:
   jumpPower: 12
   coyoteTime: 0.2
   extraJumps: 1
-  groundLayer:
+  GroundLayer:
     serializedVersion: 2
     m_Bits: 8
 --- !u!1 &388170335
@@ -1602,7 +1602,7 @@ Rigidbody2D:
   m_UseAutoMass: 0
   m_Mass: 1
   m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_AngularDamping: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -1653,7 +1653,7 @@ MonoBehaviour:
   jumpPower: 12
   coyoteTime: 0.2
   extraJumps: 1
-  groundLayer:
+  GroundLayer:
     serializedVersion: 2
     m_Bits: 8
 --- !u!1 &1512286409
